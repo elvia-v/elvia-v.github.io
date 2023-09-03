@@ -12,7 +12,7 @@ body {
     margin: 1.5rem auto;
     width:90%;
     min-width:56.25rem;
-	background-color: #99a8d1;
+	background-color: #dd99c8;
 	color: #ffffff;
 }
 
@@ -27,6 +27,7 @@ main {
 
 section {
     float: left;
+	text-align: center;
     min-width: 22.5rem;
     width:50%;
 }
@@ -46,14 +47,6 @@ figcaption {
     margin:.375rem 0;
 }
 
-.long-list {
-    margin-top:0;
-}
-
-nav {
-    float: left;
-    width:11.25rem;
-}
 
 footer {
     clear: both;
@@ -64,33 +57,43 @@ section, aside, nav, footer {
   padding: .5rem;
 }
 
-/* header and footer */
+/* header and nav */
 
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
-}
-
-header .logo {
-	color: fffff;
-	font-weight: 700;
+.topnav {
+	overflow: hidden;
+	background-color: gray;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 2.5rem 2rem;
 	text-decoration: none;
-	font-size: 4.5rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .topnav a.active {
+	color: white;
+  }
+  
+  .topnav-right {
+	float: right;
+  }
+  .topnav-middle{
+	float: left;
+  }
+
 
 a {
 	outline:none;
 	color:white;
 }
-
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
-
-/* NO changes should be made to any of the code above. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
 
 
 
@@ -122,8 +125,8 @@ h1{
 	font-family: 'Courgette', cursive;
 	letter-spacing: .125rem;
 	font-size: 3.75rem;
-	text-align: left;
-	margin:1.125rem;
+	text-align: justify;
+	margin: 0.5rem;
 	
 }
 
@@ -185,38 +188,6 @@ ol {
 }
 
 
-/* Navigation Menu */
-
-nav {
-	padding-left:0;
-	margin-top:0.25rem;
-}
-
-nav a {
-	text-decoration: none;
-	display: inline-block;
-	width: 100%;
-	line-height:3;
-	text-align:center;
-	font-size:1.125rem;
-	border:.0625rem solid #ffffff;
-	margin-bottom: 1.5rem;
-	border-radius: 0rem 2rem 0rem 2rem;
-
-}
-
-nav a:focus,
-nav a:hover {
-	color: #FFF;
-	background: #33658A;
-}
-
-nav a:active{
-	color: #FFF;
-	background: #000;
-} 
-
-
 /* fancy dot border */
 .dots {
 	border: 5px solid rgb(213, 215, 241);
@@ -228,6 +199,8 @@ nav a:active{
 
 footer {
 	text-align:center;
+	border-top: .125rem solid #33658A;
+	border-bottom: .125rem solid #33658A;
 }
 
 
