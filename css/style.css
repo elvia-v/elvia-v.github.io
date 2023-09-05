@@ -9,10 +9,9 @@ html {
 }
 
 body {
-    margin: 1.5rem auto;
-    width:90%;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
     min-width:56.25rem;
-	background-color: #dd99c8;
+	background-color: white;
 	color: #ffffff;
 }
 
@@ -26,10 +25,11 @@ main {
 }
 
 section {
-    float: left;
 	text-align: center;
+	margin-top: 1.5rem;
     min-width: 22.5rem;
-    width:50%;
+    width:45%;
+	background-color: #e9a3cd;
 }
 
 figure {
@@ -61,7 +61,7 @@ section, aside, nav, footer {
 
 .topnav {
 	overflow: hidden;
-	background-color: gray;
+	background-color: #e9a3cd;
   }
   
   .topnav a {
